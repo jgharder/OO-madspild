@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Stop madspild</title>
+</head>
+<main>
+<header>
+    <h1>STOP MADSPILD! </h1>
+    <h2>Fortæl os hvad du har tilovers og vi finder en lækker opskrift til dig</h2>
+    <nav>
+        <a href="/fakta/">Fakta om madspild</a>
+        <a href="/"> Startside</a>
+    </nav>
+</header>
+
+<body>
+
+
+<form action="/submit" method="post">
+
+   <input type="text" name="ingredient" placeholder="Skriv din ingrediens her">
+
+    <button>
+        <a th:href="@{/submitted}">Find måltid</a>
+    </button>
+</form>
+
+
+
+</body>
+</main>
+</html>
