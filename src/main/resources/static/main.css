@@ -17,13 +17,13 @@ section.forskel{
     color: black;
     font-size: large;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 section.hos-forbrugeren{
     color: black;
     font-size: large;
     margin-right: 50px;
-    margin-left: 50px
+    margin-left: 0px
 }
 a{
     color: whitesmoke;
@@ -51,7 +51,7 @@ h2 {
     font-size: 2rem;
     margin-top: 100px;
     transition: all 0.5s ease-in-out;
-        color: #383838;
+    color: #383838;
 
 }
 
