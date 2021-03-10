@@ -63,8 +63,10 @@ h2 {
 }
 
 .footer{
-    position: fixed;
-    bottom: 5px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    bottom: 20px;
     left: 5px;
 }
 
