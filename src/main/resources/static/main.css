@@ -12,6 +12,13 @@ body {
     margin-right: 20px;
    border-radius: 100%;
 }
+#nav1 {
+    border-radius: 10px;
+    background: #383838;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+}
 
 section.forskel{
     color: black;
