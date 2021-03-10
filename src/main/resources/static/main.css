@@ -3,18 +3,24 @@ body {
     background-color: #47753b;
     color: #383838;
 }
-
-.navtags{
+.navtags {
     text-align: center;
     margin-left: 300px;
     margin-bottom: 100px;
     float: right;
     font-size: 25px;
     margin-right: 20px;
+   border-radius: 100%;
 }
 
 a{
     color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
 }
 a:link{
     text-decoration: none;
@@ -26,6 +32,8 @@ a:hover{
 h1 {
     font-size: 3rem;
     line-height: 4rem;
+    text-align: center;
+
 }
 
 
@@ -33,6 +41,7 @@ h1 {
 h2 {
     font-size: 2rem;
     margin-top: 100px;
+    transition: all 0.5s ease-in-out;
 }
 
 .footer{
