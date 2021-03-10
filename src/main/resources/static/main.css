@@ -12,9 +12,27 @@ body {
     margin-right: 20px;
    border-radius: 100%;
 }
-#nav1 {
-    &#8739;
+#nav1::before {
+        content: '\01C0   ';
 }
+#nav1::after {
+    content: ' \01C0   ';
+}
+
+#nav2::after {
+    content: ' \01C0   ';
+}
+#nav3::before {
+    content: '\01C0   ';
+}
+#nav3::after {
+    content: ' \01C0   ';
+}
+
+#nav4::after {
+    content: ' \01C0   ';
+}
+
 
 section.forskel{
     color: black;
