@@ -9,7 +9,9 @@
 
 <main>
 <header>
-    <h1>STOP MADSPILD! </h1>
+    <a href="/">
+        <h1>STOP MADSPILD! </h1>
+    </a>
     <section class="navtags">
     <nav>
         <a href="/fakta">Fakta om madspild</a>
@@ -21,10 +23,9 @@
 <body>
 <h2>Fortæl os hvad du har tilovers og vi finder en lækker opskrift til dig</h2>
 
-<form action="#" th:action="@{/}" th:object="${ingredient}" method="post">
-
-   <p><input type="text" placeholder="Skriv din ingrediens her"  /> </p>
-    <p><input type="submit" value="Submit"> </p>
+<form method="get" action="https://www.webopskrifter.dk/search/">
+    <input name="q">
+    <input type="Submit">
 </form>
 
 

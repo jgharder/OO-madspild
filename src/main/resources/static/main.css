@@ -3,38 +3,28 @@ body {
     background-color: #47753b;
     color: #383838;
 }
-img{border-radius: 10px; width: 40%; height:4%; float: right;}
-* {
-    box-sizing: border-box;
-}
+
 .navtags{
+    text-align: center;
     margin-left: 300px;
     margin-bottom: 100px;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
 }
-.links{
-    margin-bottom: 40px;
-}
-main {
-    max-width: 700px;
-    margin: 36px auto;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding: 12px;
-}
+
+
 
 h1 {
     font-size: 3rem;
     line-height: 4rem;
-    margin-bottom: 50px;
 }
 
 
-section:not(:last-child) {
-    margin-bottom: 60px;
-}
 
 h2 {
     font-size: 2rem;
+    margin-top: 100px;
 }
 
 .footer{
