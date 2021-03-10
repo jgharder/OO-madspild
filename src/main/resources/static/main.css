@@ -13,6 +13,18 @@ body {
    border-radius: 100%;
 }
 
+section.forskel{
+    color: black;
+    font-size: large;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+section.hos-forbrugeren{
+    color: black;
+    font-size: large;
+    margin-right: 50px;
+    margin-left: 50px
+}
 a{
     color: whitesmoke;
     text-decoration: none;
@@ -42,6 +54,8 @@ h2 {
     font-size: 2rem;
     margin-top: 100px;
     transition: all 0.5s ease-in-out;
+        color: #383838;
+
 }
 
 .footer{
