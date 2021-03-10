@@ -34,17 +34,31 @@ body {
 }
 
 
-section.forskel{
-    color: black;
+/*section.forskel{
+    color: whitesmoke;
     font-size: large;
     margin-right: 50px;
     margin-left: 0px;
 }
 section.hos-forbrugeren{
-    color: black;
+    color: whitesmoke;
     font-size: large;
     margin-right: 50px;
     margin-left: 0px
+}*/
+
+.intro h2 {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.intro p{
+font-size:20px;
 }
 a{
     color: whitesmoke;
