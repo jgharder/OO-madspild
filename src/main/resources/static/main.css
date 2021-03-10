@@ -55,11 +55,18 @@ section.hos-forbrugeren{
     transition: all 0.5s ease-in-out;
     position: relative;
     text-transform: uppercase;
+
 }
 
 .intro p{
     font-size:20px;
     color: black;
+    margin-right: 50px;
+    margin-left: 0px;
+
+}
+#h2{
+    margin-top: 50px;
 }
 a {
     color: whitesmoke;
