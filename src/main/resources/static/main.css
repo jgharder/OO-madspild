@@ -13,6 +13,15 @@ body {
     margin-right: 20px;
 }
 
+a{
+    color: whitesmoke;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #383838;
+}
 
 h1 {
     font-size: 3rem;
