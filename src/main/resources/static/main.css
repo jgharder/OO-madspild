@@ -2,6 +2,22 @@ body {
     font-family: "Times New Roman";
     background-color: #47753b;
     color: black;
+    background-image: url("http://www.frvbordtennis.dk/wp-content/uploads/2019/10/gr%C3%B8n-baggrund.jpg");
+    background-size: cover;
+}
+#image{
+    background-image: url("https://cdn-dk-mk-me.clio.me/user_upload/madspild_-_SpeedKingz._Shutterstock.jpg");
+    height: 40px;
+    background-position: left;
+    background-repeat: repeat;
+    position: relative;
+}
+#image2{
+    background-image: url("https://cdn-dk-mk-me.clio.me/user_upload/madspild_-_SpeedKingz._Shutterstock.jpg");
+    height: 40px;
+    background-position: left;
+    background-repeat: repeat;
+    position: relative;
 }
 
 .navtags {
@@ -95,7 +111,6 @@ h2 {
     font-size: 2rem;
     margin-top: 100px;
     transition: all 0.5s ease-in-out;
-
 }
 
 .footer{
@@ -109,10 +124,9 @@ h2 {
 
 
 
-.mad{
+img{
     height: 40%;
     width: 40%;
     opacity: 70%;
     margin-top: 30px;
 }
-
