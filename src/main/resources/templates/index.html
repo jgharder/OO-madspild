@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Stop madspild</title>
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <main>
 <header>
     <h1>STOP MADSPILD! </h1>
-    <h2>Fortæl os hvad du har tilovers og vi finder en lækker opskrift til dig</h2>
+    <section class="navtags">
     <nav>
-        <a href="/fakta/">Fakta om madspild</a>
+        <a href="/fakta">Fakta om madspild</a>
         <a href="/"> Startside</a>
     </nav>
+    </section>
 </header>
 
 <body>
+<h2>Fortæl os hvad du har tilovers og vi finder en lækker opskrift til dig</h2>
 
+<form action="#" th:action="@{/}" th:object="${ingredient}" method="post">
 
-<form action="/submit" method="post">
-
-   <input type="text" name="ingredient" placeholder="Skriv din ingrediens her">
-
-    <button>
-        <a th:href="@{/submitted}">Find måltid</a>
-    </button>
+   <p><input type="text" placeholder="Skriv din ingrediens her"  /> </p>
+    <p><input type="submit" value="Submit"> </p>
 </form>
 
 
 
 </body>
 </main>
+<section class="footer">
+<footer>Made by Rabia, Stanley & Jacob</footer>
+</section>
 </html>
