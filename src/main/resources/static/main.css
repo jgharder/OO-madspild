@@ -88,6 +88,9 @@ body {
 #nav2::after {
     content: ' \01C0   ';
 }
+#nav2::before {
+    content: ' \01C0   ';
+}
 #nav3::before {
     content: '\01C0   ';
 }
