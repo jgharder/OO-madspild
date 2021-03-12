@@ -161,8 +161,9 @@ h2 {
     bottom: 10px;
 }
 
-
-
+#form{
+    margin-bottom: 350px;
+}
 img.mad{
     height: 40%;
     width: 40%;
