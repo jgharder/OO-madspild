@@ -165,10 +165,10 @@ h2 {
 .footer{
     font-size: 20px;
     text-align: center;
-    position: relative;
+    position: fixed;
     margin-top: 100px;
-    bottom: 20px;
-    left: 5px;
+    left: 40%;
+    bottom: 10px;
 }
 
 
