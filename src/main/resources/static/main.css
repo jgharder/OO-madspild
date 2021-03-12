@@ -1,8 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #ffffff;
-    padding: 20px 10px;
+    background-color: #47753b;
 }
 
 /* Style the header links */
@@ -47,14 +46,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 body {
     font-family: "Times New Roman";
     background-color: #47753b;
@@ -62,20 +53,7 @@ body {
     background-image: url("http://www.frvbordtennis.dk/wp-content/uploads/2019/10/gr%C3%B8n-baggrund.jpg");
     background-size: cover;
 }
-#image{
-    background-image: url("https://cdn-dk-mk-me.clio.me/user_upload/madspild_-_SpeedKingz._Shutterstock.jpg");
-    height: 40px;
-    background-position: left;
-    background-repeat: repeat;
-    position: relative;
-}
-#image2{
-    background-image: url("https://cdn-dk-mk-me.clio.me/user_upload/madspild_-_SpeedKingz._Shutterstock.jpg");
-    height: 40px;
-    background-position: left;
-    background-repeat: repeat;
-    position: relative;
-}
+
 
 /*
 .navtags {
