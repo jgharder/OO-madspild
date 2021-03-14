@@ -143,6 +143,8 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     text-align: center;
+    position: relative;
+    margin-left: 50px;
 }
 
 h2 {
