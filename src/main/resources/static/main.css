@@ -164,13 +164,11 @@ h2 {
     font-size: 20px;
     text-align: center;
     position: relative;
-    margin-top: 100px;
+    margin-top: 150px;
     bottom: 10px;
 }
 
-#form{
-    margin-bottom: 350px;
-}
+
 img.mad{
     height: 40%;
     width: 40%;
@@ -178,3 +176,6 @@ img.mad{
     margin-top: 30px;
 }
 
+#udelad{
+    font-size: 17px;
+}
