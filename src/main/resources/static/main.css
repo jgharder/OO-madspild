@@ -16,7 +16,7 @@
     border-radius: 4px;
 }
 
-.Search input {
+#search {
     height: 40px;
     width: 400px;
 }
